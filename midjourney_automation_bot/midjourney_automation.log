@@ -44,3 +44,75 @@
 [INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:535] - Eel initialized with web files. - [27240:30032]
 [INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:437] - Prompt: Generate a Midjourney prompt to result in an sketches image about cartoon include pandas running on the field - [27240:30032]
 [INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:539] - Web server started. - [27240:30032]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:503] - OpenAI API key for Midjourney Automation bot is already set in the environment. - [17716:19764]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:535] - Eel initialized with web files. - [17716:19764]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:437] - Prompt: Generate a Midjourney prompt to result in an sketches image about image bot include running Rabit - [17716:19764]
+[ERROR] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:324] - Error occurred: [Errno 2] No such file or directory: 'credentials.txt' while executing the main function. - [17716:19764]
+[ERROR] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:442] - An error occurred while starting the bot: [Errno 2] No such file or directory: 'credentials.txt' - [17716:19764]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:539] - Web server started. - [17716:19764]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:503] - OpenAI API key for Midjourney Automation bot is already set in the environment. - [22448:24052]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:535] - Eel initialized with web files. - [22448:24052]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:503] - OpenAI API key for Midjourney Automation bot is already set in the environment. - [6992:28364]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:535] - Eel initialized with web files. - [6992:28364]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:437] - Prompt: Generate a Midjourney prompt to result in an sketches image about image-bot include running rabit - [6992:28364]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:317] - Successfully logged into Discord. - [6992:28364]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:348] - Successfully opened the appropriate channel. - [6992:28364]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:350] - Entering the specified bot command. - [6992:28364]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:396] - Clicking on chat bar. - [6992:28364]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:400] - Typing in bot command - [6992:28364]
+[ERROR] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:417] - An error occurred while sending the bot command: Timeout 30000ms exceeded. - [6992:28364]
+Traceback (most recent call last):
+  File "F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py", line 401, in send_bot_command
+    await chat_bar.fill(command)
+  File "C:\Users\MASTER\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\async_api\_generated.py", line 16144, in fill
+    await self._impl_obj.fill(
+  File "C:\Users\MASTER\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_locator.py", line 210, in fill
+    return await self._frame.fill(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MASTER\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_frame.py", line 533, in fill
+    await self._channel.send("fill", locals_to_params(locals()))
+  File "C:\Users\MASTER\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 63, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MASTER\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 495, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\MASTER\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 101, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.
+[ERROR] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:354] - An error occurred while opening the channel and entering the bot command: Timeout 30000ms exceeded. - [6992:28364]
+[ERROR] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:324] - Error occurred: Timeout 30000ms exceeded. while executing the main function. - [6992:28364]
+[ERROR] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:442] - An error occurred while starting the bot: Timeout 30000ms exceeded. - [6992:28364]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:503] - OpenAI API key for Midjourney Automation bot is already set in the environment. - [21428:10496]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:535] - Eel initialized with web files. - [21428:10496]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:437] - Prompt: Generate a Midjourney prompt to result in an sketches image about cartoon include Panda running on the field - [21428:10496]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:317] - Successfully logged into Discord. - [21428:10496]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:348] - Successfully opened the appropriate channel. - [21428:10496]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:350] - Entering the specified bot command. - [21428:10496]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:396] - Clicking on chat bar. - [21428:10496]
+[INFO] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:400] - Typing in bot command - [21428:10496]
+[ERROR] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:417] - An error occurred while sending the bot command: Timeout 30000ms exceeded. - [21428:10496]
+Traceback (most recent call last):
+  File "F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py", line 401, in send_bot_command
+    await chat_bar.fill(command)
+  File "C:\Users\MASTER\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\async_api\_generated.py", line 16144, in fill
+    await self._impl_obj.fill(
+  File "C:\Users\MASTER\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_locator.py", line 210, in fill
+    return await self._frame.fill(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MASTER\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_frame.py", line 533, in fill
+    await self._channel.send("fill", locals_to_params(locals()))
+  File "C:\Users\MASTER\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 63, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MASTER\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 495, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\MASTER\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 101, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.
+[ERROR] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:354] - An error occurred while opening the channel and entering the bot command: Timeout 30000ms exceeded. - [21428:10496]
+[ERROR] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:324] - Error occurred: Timeout 30000ms exceeded. while executing the main function. - [21428:10496]
+[ERROR] [F:\23_Projects\midjourney-automation-bot\midjourney_automation_bot\midjourney_automation_script.py:442] - An error occurred while starting the bot: Timeout 30000ms exceeded. - [21428:10496]
